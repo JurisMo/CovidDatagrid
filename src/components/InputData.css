@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+select:invalid,
+select option[value=""] {
+  color: #999999;
+}
+
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 50em;
+  height: 30em;
+}
+.bloc-tabs {
+  position: relative;
+  width: 200;
+}
+.tabs {
+  cursor: pointer;
+  border: 1px solid black;
+  width: 7rem;
+  height: 2rem;
+  text-align: center;
+  background-color: rgb(109, 158, 235);
+  position: relative;
+  left: 1px;
+  margin: -1px;
+}
+.active-tabs {
+  background-color: rgb(207, 226, 243);
+  position: relative;
+}
+.content-tabs {
+  position: relative;
+  background-color: rgb(207, 226, 243);
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+  top: -1px;
+}
+.content {
+  display: none;
+  height: 70%;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+}
+.active-content {
+  display: block;
+}
+#filter-text-box-from,
+#filter-text-box-to {
+  width: 70px;
+}
+#filter-after-field {
+  height: 30px;
+  background-color: rgb(208, 224, 227);
+  cursor: pointer;
+}
+.filt-input {
+  height: 25px;
+  margin: 10px;
+  cursor: pointer;
+}
+.filterArea {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 10%;
+  top: 5%;
+}
+.ag-row:nth-child(even) {
+  background-color: rgb(217, 217, 217);
+}
+.ag-row:nth-child(odd) {
+  background-color: rgb(239, 239, 239);
+}
+.ag-header-container {
+  border-bottom: solid 1px rgb(188, 188, 188);
+  border-top: solid 1px rgb(188, 188, 188);
+}
+.valstsKlase {
+  border-left: solid 1px rgb(188, 188, 188);
+}
+.ag-theme-balham {
+  --ag-foreground-color: black;
+  --ag-background-color: transparent;
+  --ag-borders: none;
+  --ag-row-height: 5em;
+  --ag-header-foreground-color: black;
+  --ag-header-background-color: rgb(252, 229, 205);
+  --ag-cell-horizontal-border: solid rgb(188, 188, 188);
+  --ag-row-border-color: rgb(188, 188, 188);
+  --ag-header-column-separator-height: 100%;
+  --ag-list-item-background-color: black;
+}
+#reset-id {
+  position: relative;
+  left: 84%;
+  top: 10%;
+  background-color: rgb(208, 224, 227);
+  border: solid 1px black;
+  width: 100px;
+  height: 30px;
+  margin: 0;
+}
+.ag-root-wrapper {
+  left: 1.7%;
+  top: 20%;
+  height: 120%;
+}
+.ag-list-item {
+  background-color: rgb(207, 226, 243);
+}
+.ag-paging-panel {
+  border: none;
+}
+.ag-chart-wrapper {
+  border: solid 1px black;
+  width: 95% !important;
+  top: 39%;
+  margin: auto;
+}

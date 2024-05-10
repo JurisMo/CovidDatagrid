@@ -337,8 +337,8 @@ const InputData = () => {
               </option>
               <option value="cases">Gadījumu skaits</option>
               <option value="deaths">Nāves gadījumi</option>
-              <option value="cases">Gadījumu skaits kopā</option>
-              <option value="deaths">Nāves gadījumi kopā</option>
+              <option value="totalCases">Gadījumu skaits kopā</option>
+              <option value="totalDeaths">Nāves gadījumi kopā</option>
               <option value="Cumulative_number_for_14_days_of_COVID-19_cases_per_100000">
                 Gadījumu skaits uz 1000 iedzīvotājiem
               </option>

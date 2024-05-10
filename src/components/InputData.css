@@ -3,7 +3,6 @@
   padding: 0;
   margin: 0;
 }
-
 select:invalid,
 select option[value=""] {
   color: #999999;

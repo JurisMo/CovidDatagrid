@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/CovidDatagrid/static/css/main.0e2d0ce1.css",
+    "main.js": "/CovidDatagrid/static/js/main.420d838d.js",
+    "static/js/787.88dfdeb5.chunk.js": "/CovidDatagrid/static/js/787.88dfdeb5.chunk.js",
+    "index.html": "/CovidDatagrid/index.html",
+    "main.0e2d0ce1.css.map": "/CovidDatagrid/static/css/main.0e2d0ce1.css.map",
+    "main.420d838d.js.map": "/CovidDatagrid/static/js/main.420d838d.js.map",
+    "787.88dfdeb5.chunk.js.map": "/CovidDatagrid/static/js/787.88dfdeb5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0e2d0ce1.css",
+    "static/js/main.420d838d.js"
+  ]
+}
